@@ -37,7 +37,7 @@
                     >
                         <div slot-scope="{ uppercaseMode, mode }" class="p-8">
                             <heading :level="2" class="mb-6">{{ __(uppercaseMode+' Resource') }}</heading>
-                            <pre class="text-80 leading-normal">{{__('Are you sure you want to '+mode+' this resource?')}}</pre>
+                            <p class="text-80 leading-normal">{{__('Are you sure you want to '+mode+' this resource?')}}</p>
                         </div>
                     </delete-resource-modal>
                 </transition>
